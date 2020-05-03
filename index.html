@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S O O N</title>
+    <style>
+        html, body{
+
+            margin: 0px;
+            padding: 0;
+        }
+
+        #letraS, #letraO1, #letraO2, #letraN{
+            transform: translate3d(0, -800px, 0);
+            animation: fallingLetter 1s ease-in-out 0s 1 forwards;
+        }
+
+        #letraO2{
+
+            animation-delay: .2s;
+        }
+
+        #letraO1{
+
+            animation-delay: .4s;
+        }
+
+        #letraS{
+
+            animation-delay: .6s;
+        }
+
+        body{
+
+            animation: backgroundDarken 1s ease 0s 1 forwards;
+            animation-delay: 2s;
+        }
+
+        #sombraExt, #sombraInt{
+
+            clip-path: inset(0 0 0 100%);
+            animation: shadowSlide .4s ease 0s 1 forwards;
+            animation-delay: 3.1s;
+        }
+
+        .st0{
+            fill:#1A1A1A;
+            animation: foregroundLighten 1s ease 0s 1 forwards;
+            animation-delay: 2s;
+        }
+
+        @keyframes fallingLetter{
+
+            0%{
+
+                transform: translate3d(0, -800px, 0);
+            }
+
+            100%{
+
+                transform: translate3d(0,0,0);
+            }
+        }
+
+        @keyframes backgroundDarken{
+
+            0%{
+
+                background-color: #ffffff
+            }
+
+            100%{
+
+                background-color: #1A1A1A
+            }
+        }
+
+        @keyframes foregroundLighten{
+
+            0%{
+
+                background-color: #1A1A1A
+            }
+
+            100%{
+
+                background-color: #ffffff
+            }
+        }
+
+
+        @keyframes shadowSlide{
+
+            0%{
+
+                clip-path: inset(0 0 0 100%);
+            }
+
+            100%{
+
+                clip-path: inset(0 0 0 0%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <svg style="height: 99vh; margin: 0 auto; padding: 0; display: block" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	   viewBox="0 0 558 768" style="enable-background:new 0 0 558 768;" xml:space="preserve">
+        <style type="text/css">
+            .st0{
+                fill:#1A1A1A;
+                animation: foregroundLighten 1s ease 0s 1 forwards;
+                animation-delay: 2s;
+            }
+            .st1{fill:#e73c5f;
+                opacity: 0;
+                animation: baseShow .4s ease 0s 1 forwards;
+                animation-delay: 3.1s
+            }
+            .st2{fill:#ffffff}
+
+            @keyframes foregroundLighten{
+
+                0%{
+    
+                    fill: #1A1A1A
+                }
+    
+                100%{
+    
+                    fill: #ffffff
+                }
+            }
+
+            @keyframes baseShow{
+
+                0%{
+
+                    opacity: 0;
+
+                }
+
+                100%{
+
+                    opacity: 1;
+                    
+                }
+            }
+        </style>
+        <g id="letraO1">
+            <path class="st0" d="M280.9,330l-18.2,10.5l-15.6,9l-6.1,3.5l-24.2,14v123l24.2-14l6.1-3.5l15.6-9l18.2-10.5l12.1-7
+                V323L280.9,330z M247.1,436.5v-52l15.6-9v52L247.1,436.5z"/>
+        </g>
+        <g id="letraO2">
+            <path class="st0" d="M390.9,266.5L372.7,277l-15.6,9l-6.1,3.5l-24.2,14v123l24.2-14l6.1-3.5l15.6-9l18.2-10.5l12.1-7v-123
+                L390.9,266.5z M357.1,373v-52l15.6-9v52L357.1,373z"/>
+        </g>
+        <g id="letraN">
+            <polygon class="st0" points="510.4,197.5 510.4,320.5 480.8,337.6 480.1,336.3 464.5,306.9 464.5,347 434.2,364.5 434.2,241.5 
+                464.3,224.1 464.5,224.4 480.1,253.8 480.1,215 	"/>
+        </g>
+        <g id="baseLetraS">
+            <polygon class="st1" points="105.3,570.5 49,537.4 160.5,471.2 216.8,506.5 	"/>
+        </g>
+        <g id="sombraInt">
+            <polygon class="st2" points="152.9,457.6 152.9,463.5 140.8,456.4 140.8,450.4 	"/>
+            <polygon class="st2" points="140.8,460.9 152.9,468.1 152.9,474 140.8,466.9 	"/>
+            <polygon class="st2" points="137.8,469.7 152.9,478.6 152.9,484.5 132.7,472.6 	"/>
+        </g>
+        <g id="letraS">
+            <polygon class="st0" points="186.3,383.9 186.3,418.4 140.8,444.9 140.8,468 137.8,469.7 132.7,472.6 130.3,474 110.3,485.3 
+                110.3,427.7 	"/>
+            <polygon class="st0" points="186.3,442 186.3,506.8 155.9,524.4 152.9,526.1 110.4,550.7 110.4,515.2 152.9,490.2 155.9,488.5 
+                155.9,459.1 155.9,459.1 	"/>
+        </g>
+        <g id="sombraExt">
+            <polygon class="st2" points="79.5,507.7 107.1,523.9 107.1,529.9 79.5,513.7 	"/>
+            <polygon class="st2" points="79.5,518.2 107.1,534.4 107.1,540.4 79.5,524.2 	"/>
+            <polygon class="st2" points="79.5,528.8 107.1,545 107.1,550.9 79.5,534.7 	"/>
+            <polygon class="st2" points="79.5,420.1 107.1,436.3 107.1,442.2 79.5,426 	"/>
+            <polygon class="st2" points="79.5,462.1 107.1,478.3 107.1,484.2 79.5,468.1 	"/>
+            <polygon class="st2" points="107.1,425.8 107.1,431.7 79.5,415.5 79.5,409.6 	"/>
+            <polygon class="st2" points="79.5,451.6 107.1,467.8 107.1,473.7 79.5,457.5 	"/>
+            <polygon class="st2" points="79.5,430.6 107.1,446.8 107.1,452.7 79.5,436.5 	"/>
+            <polygon class="st2" points="79.5,497.2 107.1,513.4 107.1,519.4 79.5,503.2 	"/>
+            <polygon class="st2" points="79.5,441.1 107.1,457.3 107.1,463.2 79.5,447 	"/>
+        </g>
+    </svg>
+</body>
+</html>
