@@ -1,18 +1,22 @@
 /* Fuentes */
 @font-face {
   font-family: 'Clarika Geo';
-  src: url("../fonts/ClarikaGeoRegular.OTF"); }
+  src: url("../fonts/clarikageoregular-webfont.woff2") format("woff2"), url("../fonts/clarikageoregular-webfont.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 @font-face {
   font-family: 'Clarika Geo';
-  src: url("../fonts/ClarikaGeoMedium.OTF");
+  src: url("../fonts/clarikageomedium-webfont.woff2") format("woff2"), url("../fonts/clarikageomedium-webfont.woff") format("woff");
+  /* Pretty Modern Browsers */
   font-weight: 500; }
 @font-face {
   font-family: 'Clarika Geo';
-  src: url("../fonts/ClarikaGeoBold.OTF");
+  src: url("../fonts/clarikageobold-webfont.woff2") format("woff2"), url("../fonts/clarikageobold-webfont.woff") format("woff");
+  /* Pretty Modern Browsers */
   font-weight: 700; }
 @font-face {
   font-family: 'Clarika Geo';
-  src: url("../fonts/ClarikaGeoItalic.OTF");
+  src: url("../fonts/clarikageoitalic-webfont.woff2") format("woff2"), url("../fonts/clarikageoitalic-webfont.woff") format("woff");
+  /* Pretty Modern Browsers */
   font-weight: 400;
   font-style: italic; }
 @font-face {
