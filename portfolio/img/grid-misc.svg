@@ -1,0 +1,28 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="788.33" height="465" viewBox="0 0 788.33 465">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.07px;
+      }
+    </style>
+  </defs>
+  <title>grid-misc</title>
+  <g class="cls-1">
+    <polygon class="cls-2" points="783.44 309.17 522.83 457.2 6.23 158.95 266.85 10.92 783.44 309.17"/>
+    <line class="cls-2" x1="350.84" y1="59.41" x2="92.33" y2="208.66"/>
+    <line class="cls-2" x1="436.37" y1="109.24" x2="178.43" y2="258.37"/>
+    <line class="cls-2" x1="522.47" y1="158.95" x2="264.53" y2="308.08"/>
+    <line class="cls-2" x1="608.57" y1="208.66" x2="350.63" y2="357.79"/>
+    <line class="cls-2" x1="694.67" y1="258.37" x2="436.73" y2="407.5"/>
+    <line class="cls-2" x1="608.93" y1="407.49" x2="92.33" y2="109.24"/>
+    <line class="cls-2" x1="695.03" y1="357.79" x2="178.43" y2="59.53"/>
+    <line class="cls-2" x1="781.13" y1="308.08" x2="264.53" y2="9.82"/>
+  </g>
+</svg>

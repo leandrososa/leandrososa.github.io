@@ -20,7 +20,7 @@
   font-weight: 400;
   font-style: italic; }
 @font-face {
-  font-family: 'Inconsolata';
+  font-family: 'Inconso';
   src: url("../fonts/Inconsolata-VariableFont.ttf") format("truetype-variations");
   font-weight: 1 999; }
 /* Generales html */
@@ -79,6 +79,8 @@ header {
       color: #0c0f12; }
       header.white-bg nav ul li a span:before {
         background-color: #81cde4; }
+      header.white-bg nav ul li a span:after {
+        border-color: #0c0f12; }
 
 nav ul {
   margin: 0;
@@ -133,7 +135,8 @@ section {
   /* Fold */
   /* Trabajos */
   /* Habilidades */
-  /* Contacto */ }
+  /* Contacto */
+  /* Fold de trabajos */ }
   section.white {
     background-color: #fff;
     color: #0c0f12; }
@@ -233,8 +236,8 @@ section {
       section.skills .isometric-stack ul li {
         color: #0c0f12;
         list-style-type: none;
-        font-family: 'Inconsolata', monospace;
-        font-weight: 500;
+        font-family: 'Inconso', monospace;
+        font-variation-settings: 'wdth' 100, 'wght' 500;
         font-size: 1.3vw;
         margin-top: .5vw; }
     section.skills .isometric-stack.software {
@@ -248,10 +251,7 @@ section {
       section.skills .isometric-stack.tecnologias h4:before {
         background-image: url(../img/icon-tecnologias.svg); }
   section.contact {
-    background-image: url("../img/dotpattern-whiteBg.svg");
-    /* fallback */
-    background-image: linear-gradient(#fff, rgba(255, 255, 255, 0)), url("../img/dotpattern-whiteBg.svg");
-    /* W3C */ }
+    background-color: #0c0f12; }
     section.contact .contact-container {
       position: absolute;
       top: 40%;
@@ -262,12 +262,12 @@ section {
       -webkit-transform: translateY(-50%); }
       section.contact .contact-container h3 {
         font-weight: bold;
-        -webkit-text-stroke-color: #0c0f12;
+        -webkit-text-stroke-color: #fff;
         -webkit-text-stroke-width: .1vw;
         color: transparent;
         font-size: 3vw; }
       section.contact .contact-container a {
-        color: #0c0f12;
+        color: #fff;
         font-size: 4.5vw;
         font-weight: 700;
         text-decoration: none;
@@ -280,7 +280,7 @@ section {
           display: block;
           height: 5%;
           width: 100%;
-          background-color: #81cde4;
+          background-color: #e73c5f;
           bottom: 0; }
     section.contact .socialmedia-container {
       position: absolute;
@@ -295,8 +295,168 @@ section {
       top: 0;
       left: 0;
       right: 0;
-      background-image: url("../img/lines-bg.svg");
+      background-image: url("../img/lines-blackBg.svg");
       background-size: cover;
       background-repeat: no-repeat; }
+    section.contact.white {
+      background-color: #fff;
+      background-image: url("../img/dotpattern-whiteBg.svg");
+      /* fallback */
+      background-image: linear-gradient(#fff, rgba(255, 255, 255, 0)), url("../img/dotpattern-whiteBg.svg");
+      /* W3C */ }
+      section.contact.white .contact-container h3 {
+        -webkit-text-stroke-color: #0c0f12; }
+      section.contact.white .contact-container a {
+        color: #0c0f12; }
+        section.contact.white .contact-container a:before {
+          background-color: #81cde4; }
+      section.contact.white:before {
+        background-image: url("../img/lines-bg.svg"); }
+  section.work-fold {
+    background: #0c0f12;
+    background-image: url("../img/dotpattern-blackBg.svg");
+    /* fallback */
+    background-image: linear-gradient(rgba(12, 15, 18, 0), #0c0f12), url("../img/dotpattern-blackBg.svg");
+    /* W3C */
+    height: 80vh; }
+    section.work-fold .work-fold-titles {
+      position: absolute;
+      left: 7.29vw;
+      right: 7.29vw;
+      top: 10vw; }
+      section.work-fold .work-fold-titles h2 {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        font-size: 4.5vw; }
+        section.work-fold .work-fold-titles h2:before {
+          content: '';
+          position: absolute;
+          transform-origin: center center;
+          top: 50%;
+          left: 50%;
+          width: 6.93vw;
+          height: 20.83vw;
+          background: #e73c5f;
+          transform: translate(-50%, -50%) rotate(45deg) skew(-15deg, -15deg);
+          -webkit-transform: translate(-50%, -50%) rotate(45deg) skew(-15deg, -15deg);
+          z-index: -1; }
+      section.work-fold .work-fold-titles .work-tags {
+        text-align: right;
+        top: 3vw;
+        position: absolute;
+        left: 0;
+        right: 0; }
+        section.work-fold .work-fold-titles .work-tags .work-tag {
+          font-variation-settings: 'wdth' 75, 'wght' 500;
+          font-family: Inconso, monospace;
+          font-size: 1vw;
+          padding: 0.2vw .6vw;
+          margin-left: 1vw; }
+          section.work-fold .work-fold-titles .work-tags .work-tag.uid {
+            background-color: #f56133; }
+          section.work-fold .work-fold-titles .work-tags .work-tag.fed {
+            background-color: #3154e8; }
+      section.work-fold .work-fold-titles ul {
+        border-left: 0.15vw dashed #fff;
+        position: absolute;
+        left: 50%;
+        margin-left: -.07vw;
+        padding-top: 8vw;
+        margin-bottom: 0; }
+        section.work-fold .work-fold-titles ul li {
+          list-style-type: none;
+          margin-top: 3vw;
+          line-height: 1vw; }
+          section.work-fold .work-fold-titles ul li span {
+            font-variation-settings: 'wdth' 100, 'wght' 400;
+            font-family: Inconso, monospace;
+            font-size: 1.3vw; }
+            section.work-fold .work-fold-titles ul li span.desc-title {
+              font-variation-settings: 'wght' 700;
+              display: inline-block;
+              margin-right: 1vw; }
+          section.work-fold .work-fold-titles ul li:before {
+            content: '';
+            position: absolute;
+            left: -.07vw;
+            width: 2.82vw;
+            height: 2.1vw;
+            transform: translate(-50%, -25%);
+            -webkit-transform: translate(-50%, -25%);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(../img/work-bullet.svg);
+            background-position: center center; }
+      section.work-fold .work-fold-titles:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 41.04vw;
+        height: 24.22vw;
+        top: -3vw;
+        left: -27vw;
+        background-image: url(../img/grid-misc.svg);
+        background-size: contain;
+        background-repeat: no-repeat; }
+  section.work-main .img-introduction {
+    width: 35.1vw;
+    float: left;
+    height: 300px;
+    background-color: red;
+    margin-right: 7.3vw; }
+  section.work-main .text-introduction {
+    font-size: 1.1vw; }
+  section.work-main .categories {
+    margin-top: 4vw;
+    font-size: 0; }
+    section.work-main .categories .category {
+      width: 50%;
+      display: inline-block;
+      font-size: initial; }
+      section.work-main .categories .category h4 {
+        -webkit-text-stroke-color: #fff;
+        -webkit-text-stroke-width: .04vw;
+        color: transparent;
+        font-size: 2vw;
+        margin: 0; }
+        section.work-main .categories .category h4:before {
+          content: '';
+          display: inline-block;
+          background-size: contain;
+          margin-right: .8vw;
+          width: 3.13vw;
+          height: 3.48vw;
+          background-repeat: no-repeat;
+          background-position: center center;
+          vertical-align: middle; }
+      section.work-main .categories .category.software h4:before {
+        background-image: url(../img/work-software.svg); }
+      section.work-main .categories .category.tecnologias h4:before {
+        background-image: url(../img/work-tecnologias.svg); }
+      section.work-main .categories .category ul {
+        margin: 0;
+        padding: 0;
+        border-left: .1vw solid white;
+        margin-left: 1.6vw;
+        padding-top: 0.6vw; }
+        section.work-main .categories .category ul li {
+          list-style-type: none;
+          font-family: Inconso, monospace;
+          font-variation-settings: 'wdth' 100, 'wght' 500;
+          font-size: 1.3vw;
+          margin-left: -1.27vw;
+          margin-top: .6vw; }
+          section.work-main .categories .category ul li:before {
+            content: '';
+            display: inline-block;
+            background-image: url(../img/work-bullet-white.svg);
+            background-size: contain;
+            margin-right: 1vw;
+            width: 2.39vw;
+            height: 1.38vw;
+            background-repeat: no-repeat;
+            background-position: center center;
+            vertical-align: sub; }
 
 /*# sourceMappingURL=style.css.map */
