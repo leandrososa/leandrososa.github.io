@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="725" height="1241" viewBox="0 0 725 1241">
+    <defs>
+        <style>
+        .cls-1{fill:#fff;}
+        .cls-2{fill:none;stroke:#fff;stroke-width:7px;}
+        .cls-3{fill:#ee4867;}
+
+        #capa-inf, #capa-sup{
+
+            animation: appear-anim-inf 1.2s ease-in-out forwards;
+            opacity: 0;
+
+        }
+
+        #capa-sup{
+
+            animation-delay: .2s;
+            animation-name: appear-anim;
+        }
+
+        @keyframes appear-anim{
+
+            0%{
+
+                opacity: 0%;
+            }
+
+            100%{
+
+                opacity: 100%;
+            }
+        }
+
+        @keyframes appear-anim-inf{
+
+            0%{
+
+                opacity: 0%;
+            }
+
+            90%{
+
+                opacity: 100%;
+            }
+
+            100%{
+
+                opacity: 0%;
+            }
+        }
+
+        </style>
+    </defs>
+    <title>fold-anim</title>
+    <g id="capa-inf">
+        <path class="cls-1" d="M1720.27-531,2375.72-152.6,707.07,810.8,51.62,432.38,1720.27-531m0-8.08L37.62,432.38,707.07,818.89,2389.72-152.6,1720.27-539.1Z"/>
+        <line class="cls-2" x1="157.81" y1="362.99" x2="827.26" y2="749.49"/>
+        <line class="cls-2" x1="278" y1="293.6" x2="947.45" y2="680.1"/>
+        <line class="cls-2" x1="398.19" y1="224.2" x2="1067.64" y2="610.71"/>
+        <line class="cls-2" x1="518.38" y1="154.81" x2="1187.83" y2="541.32"/>
+        <line class="cls-2" x1="638.57" y1="85.42" x2="1308.02" y2="471.93"/>
+        <line class="cls-2" x1="2278.15" y1="-217.01" x2="595.49" y2="754.47"/>
+        <line class="cls-2" x1="2166.57" y1="-281.43" x2="483.92" y2="690.05"/>
+        <line class="cls-2" x1="2055" y1="-345.85" x2="372.34" y2="625.63"/>
+        <line class="cls-2" x1="1943.42" y1="-410.27" x2="260.77" y2="561.21"/>
+        <line class="cls-2" x1="1831.85" y1="-474.69" x2="149.19" y2="496.8"/>
+        <path class="cls-1" d="M44.6,444.82,700.08,823.26v375L44.6,819.87v-375m-7-12.12V823.91l669.48,386.53V819.22L37.6,432.7Z"/>
+        <line class="cls-2" x1="37.6" y1="693.51" x2="707.08" y2="1080.03"/>
+        <line class="cls-2" x1="37.6" y1="563.1" x2="707.08" y2="949.63"/>
+        <line class="cls-2" x1="595.5" y1="754.8" x2="595.5" y2="1146.02"/>
+        <line class="cls-2" x1="483.92" y1="690.38" x2="483.92" y2="1081.59"/>
+        <line class="cls-2" x1="372.34" y1="625.96" x2="372.34" y2="1017.17"/>
+        <line class="cls-2" x1="260.76" y1="561.54" x2="260.76" y2="952.75"/>
+        <line class="cls-2" x1="149.18" y1="497.12" x2="149.18" y2="888.33"/>
+    </g>
+    <g id="capa-sup">
+        <polygon class="cls-3" points="1720.27 -539.1 2389.72 -152.6 707.07 818.88 37.62 432.38 1720.27 -539.1"/>
+        <polygon class="cls-3" points="37.6 432.37 707.08 818.82 707.08 1210.44 37.6 823.91 37.6 432.37"/>
+    </g>
+</svg>
