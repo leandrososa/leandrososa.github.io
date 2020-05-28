@@ -502,8 +502,7 @@ section {
     left: 0;
     right: 0;
     height: 150px;
-    background-image: linear-gradient(#0c0f12, rgba(12, 15, 18, 0));
-    translate: background-image .4s; }
+    background-image: linear-gradient(#0c0f12, rgba(12, 15, 18, 0)); }
     header .header-logo {
       width: 146px;
       height: 85px;
